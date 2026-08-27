@@ -1,0 +1,62 @@
+{
+  "name": "isaac-character-studio",
+  "version": "1.0.0",
+  "description": "The Binding of Isaac Rebirth Character & Mod Workshop (DLC Compatible)",
+  "main": "electron/main.cjs",
+  "author": "Hyrule Mod Studio",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "electron": "electron electron/main.cjs",
+    "start": "electron electron/main.cjs",
+    "pack": "npm run build:client && electron-builder --dir",
+    "dist:portable": "npm run build:client && electron-builder --win portable",
+    "build:exe": "npm run dist:portable"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "multer": "^1.4.5-lts.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^44.0.0",
+    "electron-builder": "^26.15.3",
+    "sharp": "^0.35.4"
+  },
+  "build": {
+    "appId": "com.hyrule.isaaccharacterstudio",
+    "productName": "HyruleCharacterStudio",
+    "directories": {
+      "output": "dist-app"
+    },
+
+    "files": [
+      "electron/**/*",
+      "assets/**/*",
+      "server/**/*",
+      "client/dist/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "icon": "assets/icon.ico",
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        "portable",
+        "dir"
+      ]
+    },
+    "portable": {
+      "artifactName": "HyruleCharacterStudio.exe",
+      "unpackDirName": "hyrule-character-studio"
+    },
+    "asar": false
+
+  }
+}
