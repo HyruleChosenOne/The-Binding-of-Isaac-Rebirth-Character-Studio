@@ -1,7 +1,7 @@
 > [!NOTE]
 > **Early Implementation:** Work is currently ongoing for menu/boss portraits and stat calibration.
 
-# 🩸 Isaac Character Studio (v0.6)
+# 🩸 Isaac Character Studio
 
 [![Release](https://img.shields.io/badge/Release-v0.6.0-crimson.svg?style=for-the-badge)](https://github.com/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg?style=for-the-badge&logo=windows)](https://github.com/)
