@@ -14,7 +14,7 @@
 [![Zero Install](https://img.shields.io/badge/zero--install-Portable%20Standalone-purple.svg?style=for-the-badge)](https://nodejs.org/)
 
 </div>
-
+***
 ---
 
 ## 📖 Overview
