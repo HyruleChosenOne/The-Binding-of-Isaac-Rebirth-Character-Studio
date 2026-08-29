@@ -14,7 +14,7 @@
 [![Zero Install](https://img.shields.io/badge/zero--install-Portable%20Standalone-purple.svg?style=for-the-badge)](https://nodejs.org/)
 
 </div>
-***
+
 ---
 
 ## 📖 Overview
@@ -23,6 +23,24 @@
 
 It allows creators, modders, and players of all experience levels to build fully playable, rich custom characters with authentic game-accurate animations, accurate XML definitions, starting collectibles, customized health bars, procedural Lua scripts, dynamic Birthright mechanics, and dual twin characters (like Jacob & Esau)—**all without writing a single line of code**.
 
+---
+
+## ✨ Features at a Glance
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                           ISAAC CHARACTER STUDIO                             │
+├──────────────────────┬───────────────────────┬───────────────────────────────┤
+│  🎭 Character Engine │  🎨 Sprite & Recolor  │  📦 Inventory & Items         │
+│  • 34 Base Characters│  • Live HSL Adjuster  │  • 732+ Collectibles (Q0-Q4)  │
+│  • Tainted Variations│  • Slicing Preview    │  • 189+ Trinkets & Pocket     │
+│  • Dual / Twin Mode  │  • Custom Nameplates  │  • Active Charges & Synergies │
+├──────────────────────┼───────────────────────┼───────────────────────────────┤
+│  ❤️ Health & Pickups │  ⚡ Dynamic Lua Engine│  🚀 One-Click Game Export     │
+│  • 9 Heart Archetypes│  • Birthright Hooks   │  • Direct to mods/ folder     │
+│  • Coins/Bombs/Keys  │  • Twin Sync Engine   │  • Instant Enable / Disable   │
+│  • Cards & Pills     │  • ANM2 Generator     │  • Portable Standalone Build  │
+└──────────────────────┴───────────────────────┴───────────────────────────────┘
 ```
 
 ---
@@ -126,30 +144,6 @@ Generate balanced or chaotic character builds with a single click:
 
 ---
 
-## 📂 Generated Mod Architecture
-
-When a character is exported, the studio generates a clean, compliant mod directory:
-
-```
-<The Binding of Isaac Mods>/
-└── custom_character_name/
-    ├── content/
-    │   └── players.xml            # Player definitions, costumes, and baseline stats
-    ├── resources/
-    │   ├── gfx/
-    │   │   ├── characters/        # Character spritesheets and costume overlays
-    │   │   └── ui/
-    │   │       ├── stage/         # Stage versus portraits and nameplates
-    │   │       └── characterportraits.anm2 # Menu and selection animations
-    │   └── scripts/
-    ├── main.lua                   # High-performance Lua logic and Repentance callbacks
-    ├── metadata.xml               # Mod metadata and Steam Workshop details
-    ├── disable.it                 # (Optional) Toggles mod active state in Isaac menu
-    └── thumb.png                  # Mod preview thumbnail
-```
-
----
-
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
@@ -164,21 +158,16 @@ When a character is exported, the studio generates a clean, compliant mod direct
 
 ---
 
-## ⚙️ Configuration & Settings
-
-Upon first launch, the studio automatically scans standard Steam and Isaac directories:
-- **Game Path**: `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth`
-- **Mods Path**: `%USERPROFILE%\Documents\My Games\Binding of Isaac Repentance\mods`
-- **Workshop Path**: `C:\Program Files (x86)\Steam\steamapps\workshop\content\250900`
-
-If your game is installed on a secondary drive (e.g. `D:`, `E:`, `G:`), open the **Settings** tab (`⚙️`) to select or customize your paths with real-time validation.
-
----
-
 ## 📜 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
+<div align="center">
 
+*The Binding of Isaac is developed by Edmund McMillen and Nicalis. This studio is a fan-made creation tool designed to support the modding community.*
+
+**Made with ❤️ for Isaac Modders & Creators Worldwide**
+
+</div>
