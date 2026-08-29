@@ -23,24 +23,6 @@
 
 It allows creators, modders, and players of all experience levels to build fully playable, rich custom characters with authentic game-accurate animations, accurate XML definitions, starting collectibles, customized health bars, procedural Lua scripts, dynamic Birthright mechanics, and dual twin characters (like Jacob & Esau)—**all without writing a single line of code**.
 
----
-
-## ✨ Features at a Glance
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                           ISAAC CHARACTER STUDIO                             │
-├──────────────────────┬───────────────────────┬───────────────────────────────┤
-│  🎭 Character Engine │  🎨 Sprite & Recolor  │  📦 Inventory & Items         │
-│  • 34 Base Characters│  • Live HSL Adjuster  │  • 732+ Collectibles (Q0-Q4)  │
-│  • Tainted Variations│  • Slicing Preview    │  • 189+ Trinkets & Pocket     │
-│  • Dual / Twin Mode  │  • Custom Nameplates  │  • Active Charges & Synergies │
-├──────────────────────┼───────────────────────┼───────────────────────────────┤
-│  ❤️ Health & Pickups │  ⚡ Dynamic Lua Engine│  🚀 One-Click Game Export     │
-│  • 9 Heart Archetypes│  • Birthright Hooks   │  • Direct to mods/ folder     │
-│  • Coins/Bombs/Keys  │  • Twin Sync Engine   │  • Instant Enable / Disable   │
-│  • Cards & Pills     │  • ANM2 Generator     │  • Portable Standalone Build  │
-└──────────────────────┴───────────────────────┴───────────────────────────────┘
 ```
 
 ---
