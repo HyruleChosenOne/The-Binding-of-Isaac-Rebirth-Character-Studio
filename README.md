@@ -8,6 +8,8 @@
 > **The ultimate visual character creator, loadout editor, and one-click mod generator for *The Binding of Isaac: Repentance* and *Repentance+*.**  
 > Design custom characters, fine-tune starting stats, pick custom collectibles, and export fully functional standalone mods without writing a single line of XML or Lua!
 
+> Note: this project was made with the use of AI assistance. Some sprites still need additional work and refinement.
+
 ---
 
 ## ✨ Features Overview
