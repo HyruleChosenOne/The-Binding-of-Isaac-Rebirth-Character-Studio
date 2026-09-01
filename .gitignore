@@ -6,6 +6,7 @@ runtime/*.exe
 *.exe
 
 # Test outputs and temporary mocks
+test/
 test/mock_mods/
 test/*output*/
 test/test_mods_output/

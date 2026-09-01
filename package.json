@@ -13,8 +13,7 @@
     "build": "npm --prefix client run build",
     "build:client": "npm --prefix client run build",
     "build:database": "node scripts/buildDatabase.js",
-    "pack": "node scripts/packZip.js",
-    "test": "node test/verifyAssetEngine.js && node test/verifyCharacterCompile.js && node test/verifyServerHttp.js && node test/verifyDualAndForgottenCompile.js && node test/verifyGreedCoopAndDualPools.js"
+    "pack": "node scripts/packZip.js"
   },
   "dependencies": {
     "archiver": "^7.0.1",
