@@ -1,7 +1,7 @@
 {
   "name": "isaac-character-studio",
   "version": "0.8.0",
-  "description": "The Binding of Isaac Rebirth Character & Mod Workshop (DLC Compatible)",
+  "description": "",
   "main": "server/index.js",
   "type": "module",
   "author": "Isaac Character Studio",
