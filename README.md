@@ -1,9 +1,6 @@
-> [!NOTE]
-> **Early Implementation:** Work is currently ongoing for menu/boss portraits and stat calibration.
-
 # 🩸 Isaac Character Studio
 
-[![Release](https://img.shields.io/badge/Release-v0.6.0-crimson.svg?style=for-the-badge)](https://github.com/)
+[![Release](https://img.shields.io/badge/Release-v0.8.0-crimson.svg?style=for-the-badge)](https://github.com/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg?style=for-the-badge&logo=windows)](https://github.com/)
 [![Game Version](https://img.shields.io/badge/Game-The_Binding_of_Isaac:_Repentance_%2F_Repentance%2B-darkred.svg?style=for-the-badge)](https://store.steampowered.com/app/250900/)
 [![License](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
@@ -15,9 +12,17 @@
 
 ## ✨ Features Overview
 
+### 👥 Dual Character Engine (Jacob & Esau Archetype)
+* **Partnered Duo Support**: Create dual character duos with independent spritesheets, customized partner names, individual starting stats, separate starting health bars, and distinct starting loadouts (passives, active items, trinkets, and pocket items).
+* **Dual Health HUD Rendering**: Live bottom-right health HUD rendering in-game for the second character, tracking individual Red, Soul, Black, Bone, Rotten, and Broken hearts.
+* **Synchronized In-Game Spawner**: Robust single-instance Lua spawner with automatic position placement adjacent to the primary character and safe engine event hooks.
+* **Alt-Path Item Choice Handling**: Built-in support for synchronized double-item pickups in Alt-Path treasure rooms and Birthright passive item duplication mechanics.
+
+### 💀 The Forgotten Archetype
+* **Skeletal Warrior Support**: Create characters using The Forgotten archetype with innate bone club melee attacks, bone heart health pools, and tethered soul partner forms.
+
 ### 🎨 Visual Character Designer & Palette Studio
 * **All 34 Base Characters Supported**: Quick-start templates for all 17 standard characters and all 17 Tainted counterparts.
-* **Dual & Twin Character Engine (Jacob & Esau Architecture)**: Create partnered dual characters with independent sprites, separate health bars, distinct starting stats, individual items, and synchronized Lua room handling.
 * **Live In-Game HUD Preview**: Real-time visualization of health containers (Red Hearts, Soul Hearts, Black Hearts, Bone Hearts, Rotten Hearts, Golden Hearts, Eternal Hearts, Broken Hearts, and Keeper Coin Hearts), authentic HUD pickup counters (Keys, Bombs, Coins), and base stats.
 * **Real-Time Head & Animation Slicing Preview**: Live animated canvas previewing head, body, eyes, walking animations, and shooting poses directly from the spritesheet.
 * **Palette Hue & Lighting Engine**: Non-destructive live recoloring with sliders for **Hue (0–360°)**, **Saturation**, **Brightness**, and **Contrast**.
@@ -55,8 +60,9 @@
 * **Interactive Synergy Matrix**: Configure and test synergy behaviors with major items (*Brimstone*, *Mom's Knife*, *Tech X*, *Ipecac*, *C Section*, *Ludovico Technique*, *Polyphemus*).
 
 ### 🎲 Procedural Character Randomizer
-* **Themed Archetypes**: Generate randomized balanced builds across themes (*Unholy Demon*, *Angelic*, *Cyborg / Tech*, *Poison / Rotten*, *Speedster*, *Glass Cannon*, *Tank*, *Gambling / Greed*, *Dual Twins*).
-* **Difficulty Scaling**: Choose between *Easy*, *Normal*, *Hardcore*, and *Chaos* generation modes.
+* **Authentic Archetype Generator**: Generate balanced or chaotic characters following authentic Isaac rules (*Classic Red Hearts*, *Soul / Spirit Focus*, *Demonic Black Hearts*, *Bone Hybrid*, *Rotten Health*, *Holy / Eternal*, *Midas Gold*, *Dual Twins*, *Tank / Colossus*, *Fragile Survival*).
+* **Custom Synergy Seeding**: Roll guaranteed starting 2-item synergies, pocket actives, and procedurally generated color palettes.
+* **Modded Item Integration**: Optionally include scanned modded items in randomized item pools.
 
 ### 👥 Interactive Character Roster Hub
 * **Visual Character Gallery**: Browse all custom characters with live sprite heads, stat summaries, and equipped item badges.
@@ -65,15 +71,18 @@
 * **Standalone ZIP Mod Export**: Export individual or bundled mods as `.zip` packages ready for sharing or Steam Workshop upload.
 
 ### 🚀 One-Click Mod Exporter & Steam Integration
+* **Bundled Vanilla Asset Engine**: Ships with 100% pre-packaged assets for all 34 base characters, 732+ collectible items, 189+ trinkets, cards, runes, souls, and UI HUD hearts for instant standalone performance without probing game files.
 * **Auto-Discovery & Deep Path Scanner**: Automatically locates your Isaac installation, Documents mod folder, and Steam Workshop directories across all drives.
-* **Built-in Resource Extractor**: Direct runner for Isaac's official `ResourceExtractor.exe` to extract game assets, textures, and sprites into the studio.
+* **Opt-In Resource Extractor**: Built-in runner for Isaac's official `ResourceExtractor.exe` available on-demand in settings when fresh live extractions are needed.
 * **Standalone Mod Packaging**: Exports clean, isolated mod packages directly into `The Binding of Isaac Rebirth/mods/`.
 * **Zero Vanilla Overwrite**: 100% non-invasive mod creation that keeps your core game files completely safe and untouched.
 * **Lua & XML Auto-Generation**: Automatically writes safe `players.xml`, `metadata.xml`, and production-ready `main.lua` with Repentance callbacks (`MC_POST_PLAYER_INIT`, `MC_EVALUATE_CACHE`, `MC_POST_NEW_ROOM`, `MC_USE_ITEM`, pocket slot handlers, twin synchronization, and Birthright hooks).
 
 ### 🌐 Localization & Zero-Install Architecture
 * **Full Bilingual Interface**: Switch seamlessly between **English** and **French (Français)** with zero page reloads.
-* **Zero-Install Standalone**: Pre-bundled portable Node.js runtime with single-click `.bat` launcher.
+* **12 Thematic Floor Themes**: Choose between 12 immersive UI palettes inspired by Isaac floor aesthetics (*Basement*, *Caves*, *Depths*, *Womb*, *Sheol*, *Cathedral*, *The Chest*, *Dark Room*, *The Void*, *Corpse*, *Home*, *Mausoleum*).
+* **Configurable UI Scaling**: Adjust interface scaling (*Small*, *Normal*, *Large*, *Extra Large*) for optimal readability on any screen resolution.
+* **Zero-Install Standalone**: Pre-bundled portable Node.js runtime with single-click `.bat` launcher. Works completely standalone even without an Isaac game directory.
 * **Automatic Browser & Heartbeat Watchdog**: Automatically launches the studio in your default browser and cleanly shuts down the background server when the tab/window is closed.
 
 ---
@@ -81,7 +90,7 @@
 ## 📦 Download & Quick Start
 
 ### Standalone Release (No Installation Required)
-1. Download **`IsaacCharacterStudio-v0.6.zip`** from the [Releases](https://github.com/) page.
+1. Download **`IsaacCharacterStudio-v0.8.zip`** from the [Releases](https://github.com/) page.
 2. Extract the ZIP archive anywhere on your PC.
 3. Double-click **`Launch-IsaacStudio.bat`**.
 4. The studio will automatically launch in your default web browser!
@@ -93,6 +102,12 @@
 * **OS**: Windows 10 / 11 (64-bit)
 * **Game**: *The Binding of Isaac: Repentance* or *The Binding of Isaac: Repentance+* (Steam)
 * **Runtime**: Portable Node.js runtime is pre-bundled in the standalone ZIP release!
+
+## 🧪 Running Tests
+
+```bash
+npm test
+```
 
 ## 🙏 Acknowledgements
 

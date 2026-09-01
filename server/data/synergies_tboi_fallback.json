@@ -1,0 +1,1217 @@
+{
+  "source": "tboi-original",
+  "entries": [
+    {
+      "id": "fetus-brimstone",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "description": "Brimstone overrides Dr. Fetus. The player turns black but the Top hat and Monocle from Dr. Fetus still remain."
+    },
+    {
+      "id": "fetus-chocolate",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Cancels the Chocolate Milk affect. There is only a graphical glitch which makes Isaac look like he is spitting bombs out his mouth."
+    },
+    {
+      "id": "fetus-cold",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "Graphical changes only. Isaac's head and the bombs from Dr. Fetus turn green but the explosion does not cause any poison affect on enemies."
+    },
+    {
+      "id": "fetus-epic",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Dr. Fetus."
+    },
+    {
+      "id": "fetus-triple",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "Greatly decreases the fire rate of bombs down to one bomb about every 4 seconds. Additionally, the damage of each bomb does not increase."
+    },
+    {
+      "id": "fetus-ipecac",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "description": "Greatly decreases the fire rate of bombs down to one bomb about every 4 seconds. Additionally, the damage of each bomb does not increase and Dr. Fetus bombs do not get a poison effect."
+    },
+    {
+      "id": "fetus-quad",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 153,
+        "name": "Mutant Spider"
+      },
+      "description": "Greatly decreases the fire rate of bombs down to one bomb about every 4 seconds. Additionally, the damage of each bomb does not increase."
+    },
+    {
+      "id": "fetus-contacts",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Turns Dr. Fetus bombs red but does not give them the freeze effect from Mom's Contacts."
+    },
+    {
+      "id": "fetus-knife",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "description": "Mom's Knife overrides Dr. Fetus. Top hat and Monocle from Dr. Fetus still remain."
+    },
+    {
+      "id": "fetus-one",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Greatly increases the rate of fire of bombs from Dr. Fetus and turns each bomb yellow."
+    },
+    {
+      "id": "fetus-polyphemus",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Greatly decreases the fire rate of bombs down to one bomb about every 4 seconds but increases the damage of each bomb by almost double."
+    },
+    {
+      "id": "fetus-sacred",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Slightly decreases the fire rate of Dr. Fetus bombs, gives them a homing effect and increases damage by about x1.2."
+    },
+    {
+      "id": "fetus-spider",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "Does not add the slowing effect from Spider's Bite to the Dr. Fetus bombs."
+    },
+    {
+      "id": "fetus-spoon",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Turns Dr. Fetus bombs purple and gives them a homing effect."
+    },
+    {
+      "id": "fetus-tech",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "description": "Dr. Fetus overrides Technology. The technology laser appears to still fire however this is simply a graphical glitch and does no damage."
+    },
+    {
+      "id": "fetus-tech2",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "description": "The player will fire the Technology 2 laser and the Dr. Fetus bombs together."
+    },
+    {
+      "id": "fetus-wiggle",
+      "base": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "Slightly increases the fire rate of Dr. Fetus bombs but does not give the bombs the wiggle effect."
+    },
+    {
+      "id": "knife-brimstone",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "description": "Mom's Knife overrides Brimstone. Brimstone has no effect on Mom's Knife in terms of damage or charge time."
+    },
+    {
+      "id": "knife-chocolate",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Chocolate Milk does not effect Mom's Knife in any way."
+    },
+    {
+      "id": "knife-cold",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "Mom's Knife will gain the poison effect from the Common Cold, which gives a 1/4 chance to poison enemies and do 2 damage per tick when active."
+    },
+    {
+      "id": "knife-epic",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Mom's Knife."
+    },
+    {
+      "id": "knife-fetus",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "description": "Mom's Knife overrides Dr. Fetus."
+    },
+    {
+      "id": "knife-triple",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "Mom's Knife overrides triple shot and makes the knife take longer to charge. The Inner Eye does not change the damage of Mom's Knife at all."
+    },
+    {
+      "id": "knife-ipecac",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "description": "Mom's Knife overrides the Ipecac shots and makes the knife take longer to charge. Ipecac does not increase the damage of Mom's Knife."
+    },
+    {
+      "id": "knife-quad",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 153,
+        "name": "Mutant Spider"
+      },
+      "description": "Mom's Knife overrides quad shot and makes the knife take longer to charge. Taking Mutant Spider when you already have Mom's Knife is not advised because if you also then took Polyphemus on top of this, your damage would be half as much as it would be if you had just Mom's Knife and Polyphemus."
+    },
+    {
+      "id": "knife-contacts",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Mom's Knife turns red and makes the Mom's Contact effect occur much more frequently."
+    },
+    {
+      "id": "knife-one",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Turns Mom's Knife yellow and makes the knife charge time much quicker. The range down from Number one does not decrease the damage of Mom's Knife."
+    },
+    {
+      "id": "knife-polyphemus",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Mom's Knife and Polyphemus drastically increases your damage up to 90 damage with just those two items. This combination is one of the most over powered in the game and will allow you to kill the final bosses within 4 seconds. In this situation you do NOT want to take the Mutant Spider, which would cut your damage in half."
+    },
+    {
+      "id": "knife-sacred",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Greatly increases the damage of Mom's Knife and gives it a very slight homing effect."
+    },
+    {
+      "id": "knife-spider",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "Gives Mom's Knife the slowing effect from Spider's Bite, making the effect much more likely to activate."
+    },
+    {
+      "id": "knife-spoon",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Turns Mom's Knife purple and gives it a very slight homing effect."
+    },
+    {
+      "id": "knife-tech",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "description": "Mom's Knife overrides Technology 1."
+    },
+    {
+      "id": "knife-tech2",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "description": "Mom's Knife overrides Technology 2. The -35% damage from Technology 2 still applies to Mom's Knife (VERY BAD) and the laser will look like it is firing but does no damage, so this is a graphical glitch."
+    },
+    {
+      "id": "knife-wiggle",
+      "base": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "Wiggle Worm causes Mom's Knife to move in a wiggling fashion across the screen and also makes the knife charge quicker very slightly."
+    },
+    {
+      "id": "brimstone-chocolate",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Chocolate Milk allows you to release non-fully charged Brimstone shots which do less damage. The damage per laser scales linearly to 100% damage at 2 seconds of charge. If you pre-charge Brimstone before entering another room, the Chocolate Milk will make the first shot do no damage. Chocolate Milk also prevents use of the Brimstone Glitch."
+    },
+    {
+      "id": "brimstone-cold",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "Brimstone shots have a chance to apply the poison effect from the Common Cold."
+    },
+    {
+      "id": "brimstone-epic",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Brimstone and you do not retain the x3 damage from Brimstone shots."
+    },
+    {
+      "id": "brimstone-fetus",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "description": "Brimstone overrides Dr. Fetus with no other stat changes."
+    },
+    {
+      "id": "brimstone-triple",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "Brimstone overrides Triple shot, but Brimstone shots now do 300% damage and take a much longer time to charge. The damage x3 effects of Ipecac and Mutant Spider on Brimstone do not stack with the Inner Eye's x3 multiplier."
+    },
+    {
+      "id": "brimstone-ipecac",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "description": "Brimstone overrides Ipecac, but Brimstone shots now do 300% damage and take a much longer time to charge. The damage x3 effects of Inner Eye and Mutant Spider on Brimstone do not stack with the Ipecac's x3 multiplier."
+    },
+    {
+      "id": "brimstone-quad",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 153,
+        "name": "Mutant Spider"
+      },
+      "description": "Brimstone overrides Mutant Spider, but Brimstone shots now do 300% damage and take a much longer time to charge. The damage x3 effects of Inner Eye and Ipecac on Brimstone do not stack with the Mutant Spider's x3 multiplier. If you have Brimstone and Polyphemus, you do NOT want to take Mutant Spider, as it would reduce your damage by roughly half."
+    },
+    {
+      "id": "brimstone-contacts",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Mom's Contacts applies the freeze effect to Brimstone shots."
+    },
+    {
+      "id": "brimstone-knife",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "description": "Mom's Knife overrides Brimstone."
+    },
+    {
+      "id": "brimstone-one",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Number One has no effect on Brimstone. Number One is also a special item, so picking it up would give you less chance to pick up other good 'special' items. For more information about special items, check the FAQ page."
+    },
+    {
+      "id": "brimstone-polyphemus",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Polyphemus causes Brimstone to do massive damage and makes the charge time on the laser significantly longer. The big increase in charge time is worth it with Polyphemus because having just these two items causes the Brimstone beam to do 135, instead of the usual 10.5 damage. This huge increase in damage will one shot most bosses and becomes even more powerful with the Brimstone Glitch. In this situation you do NOT want to take Mutant Spider, as it would reduce your damage by roughly half."
+    },
+    {
+      "id": "brimstone-sacred",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Sacred Heart causes the Brimstone laser to do significantly more damage, however it will take slightly longer to charge."
+    },
+    {
+      "id": "brimstone-spider",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "Brimstone shots now have a random chance to apply the slowing effect from Spider's Bite."
+    },
+    {
+      "id": "brimstone-spoon",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Spoon Bender has no effect on Brimstone shots. Spoon Bender is also a special item, so picking it up would give you less chance to pick up other good 'special' items. For more information about special items, check the FAQ page."
+    },
+    {
+      "id": "brimstone-tech",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "description": "Brimstone overrides Technology."
+    },
+    {
+      "id": "brimstone-tech2",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "description": "Both the Technology 2 and Brimstone lasers will fire together. The Brimstone laser is affected by the -35% damage down from Technology 2, however this combination is probably a damage per second increase due to the stacking of both lasers."
+    },
+    {
+      "id": "brimstone-wiggle",
+      "base": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "The waving effect of Wiggle Worm has no effect on Brimstone, however it does benefit slightly from the tears up, making Brimstone lasers charge very slightly quicker."
+    },
+    {
+      "id": "tech-brimstone",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "description": "Brimstone overrides Technology."
+    },
+    {
+      "id": "tech-chocolate",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Chocolate Milk allows you to charge your Technology laser, up to a maximum of +7.8 damage when the laser is fully charged. The usefulness of this synergy largely depends if you enjoy charged shots or prefer automatic."
+    },
+    {
+      "id": "tech-cold",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "Common Cold gives your Technology lasers the chance to give enemies the poison effect. This synergy also turns the Technology laser green."
+    },
+    {
+      "id": "tech-epic",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Technology. This synergy also adds an invisible laser which acts exactly like a normal Technology laser would."
+    },
+    {
+      "id": "tech-fetus",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "description": "Dr. Fetus overrides Technology. The technology laser appears to still fire however this is simply a graphical glitch and does no damage."
+    },
+    {
+      "id": "tech-triple",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "Technology overrides the Inner Eye and causes the laser to do x3 damage. However this also reduces your fire rate significantly. The damage x3 effects of Ipecac and Mutant Spider on Technology do not stack with the Inner Eye's x3 multiplier."
+    },
+    {
+      "id": "tech-ipecac",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "description": "Technology overrides Ipecac and causes the laser to do x3 damage. However this also reduces your fire rate significantly. The damage x3 effects of Inner Eye and Mutant Spider on Technology do not stack with the Ipecac's x3 multiplier."
+    },
+    {
+      "id": "tech-quad",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 153,
+        "name": "Mutant Spider"
+      },
+      "description": "Technology overrides Mutant Spider and causes the laser to do x3 damage. However this also reduces your fire rate significantly. The damage x3 effects of Inner Eye and Ipecac on Technology do not stack with the Mutant Spider's x3 multiplier."
+    },
+    {
+      "id": "tech-contacts",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Mom's Contacts causes the Technology laser to get the Freeze effect, which gives a random chance to turn enemies into stone for a few seconds. This synergy works even better with a high tears stat."
+    },
+    {
+      "id": "tech-knife",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "description": "Mom's Knife overrides Technology."
+    },
+    {
+      "id": "tech-one",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Number One greatly increases the fire rate of technology and colours the laser yellow. The -13 range from Number One does not effect Technology in any way."
+    },
+    {
+      "id": "tech-polyphemus",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Polyphemus greatly increases Technology's laser in terms of damage and size. This synergy also causes lasers to fire far less frequently, however with only these two items you will be doing 45 damage per laser shot which is definitely worth the huge tears down."
+    },
+    {
+      "id": "tech-sacred",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Sacred Heart causes the Technology laser to do a lot more damage and colours it purple."
+    },
+    {
+      "id": "tech-spider",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "This synergy causes the Technology laser to have a random chance to apply the Spider's Bite effect, which slows down enemy speed and shot speed. It will also colour the laser pink."
+    },
+    {
+      "id": "tech-spoon",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Spoon Bender turns the Technology laser purple but gives it no homing capabilities."
+    },
+    {
+      "id": "tech-tech2",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "description": "In this combination, both Technology 1 and 2 lasers will fire together. The Technology 1 laser will be affected by the -35% damage down from Technology 2, however the combination is probably an overall damage per second increase with both lasers active at the same time."
+    },
+    {
+      "id": "tech-wiggle",
+      "base": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "Wiggle worm causes the Technology laser to have a snake pattern across the screen and slightly increases the fire rate of it."
+    },
+    {
+      "id": "tech2-brimstone",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "description": "Both the Technology 2 and the Brimstone lasers will fire at the same time. The Brimstone laser will be affected by the -35% damage from Technology 2, however the combined lasers make up a lot of the lost damage from Brimstone. If you have Technology 2 already, taking Brimstone might be a good idea, however if you have Brimstone and see Technology 2 show up, taking it might be a very bad idea. This synergy is very situational."
+    },
+    {
+      "id": "tech2-chocolate",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Chocolate Milk increases Technology 2's laser damage and allows you to also charge tears just like you would with Chocolate Milk. As Cain, this synergy will make you constantly fire the Technology 2 laser without holding the arrow keys down after the first time you press it in the current room."
+    },
+    {
+      "id": "tech2-cold",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "The laser from Technology 2 will have a random chance to apply the poison effect from The Common Cold."
+    },
+    {
+      "id": "tech2-epic",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Technology 2. This synergy increases the time between each Epic Fetus shot slightly. The Technology 2 laser will stack with Epic Fetus and will only fire in the cooldown period between each Epic Fetus shot."
+    },
+    {
+      "id": "tech2-fetus",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "description": "Both the Technology 2 laser and the Dr. Fetus bombs will fire, however the fire rate of Dr. Fetus lowers."
+    },
+    {
+      "id": "tech2-triple",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "The Inner Eye slightly increases Technology 2 laser damage and allows the player to fire both the laser and the triple shot, assuming you are not playing as Cain."
+    },
+    {
+      "id": "tech2-ipecac",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "description": "Both Technology 2 and Ipecac shots will fire together and the damage of the laser will be slightly increased. The -35% damage from Tech 2 does not effect the damage of Ipecac shots."
+    },
+    {
+      "id": "tech2-contacts",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Gives Technology 2 the freezing effect from Mom's Contacts while still firing normal tears, as long as you are not playing as Cain. Technology 2 hits so frequently that the Mom's Contacts effect is active most of the time."
+    },
+    {
+      "id": "tech2-knife",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "description": "Technology 2 causes Mom's Knife to do -35% damage. The laser from Technology 2 appears to work but this is just a graphical glitch and does no damage."
+    },
+    {
+      "id": "tech2-one",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Number One has no discernible effect on Technology 2."
+    },
+    {
+      "id": "tech2-polyphemus",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Polyphemus greatly increases the damage of Technology 2. Despite the -35% damage from Technology 2, this combination still kills bosses in under 10 seconds. In this situation you do NOT want to take the Mutant Spider, as it would cut your damage in half."
+    },
+    {
+      "id": "tech2-sacred",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Both the Technology 2 laser and the Sacred heart tears will fire together at a slower rate. Sacred heart also slightly increases the damage of the Technology 2 laser."
+    },
+    {
+      "id": "tech2-spider",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "Gives Technology 2 the slowing effect from Spider's Bite while still firing normal tears, as long as you are not playing as Cain. Technology 2 hits so frequently that the Spider's Bite effect is active most of the time."
+    },
+    {
+      "id": "tech2-spoon",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Spoon Bender has no effect on the Technology 2 laser, however normal shots will still fire alongside the laser with a homing effect."
+    },
+    {
+      "id": "tech2-tech",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "description": "In this combination, both Technology 1 and 2 lasers will fire together. The Technology 1 laser will be affected by the -35% damage down from Technology 2, however the combination is probably an overall damage per second increase with both lasers active at the same time."
+    },
+    {
+      "id": "tech2-wiggle",
+      "base": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "Wiggle worm has no effect on Technology 2 lasers, however normal shots will still fire alongside with a wiggle effect."
+    },
+    {
+      "id": "ipecac-brimstone",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 118,
+        "name": "Brimstone"
+      },
+      "description": "Brimstone overrides Ipecac, but Brimstone shots now do 300% damage and take a much longer time to charge. The damage x3 effects of Inner Eye and Mutant Spider on Brimstone do not stack with the Ipecac's x3 multiplier."
+    },
+    {
+      "id": "ipecac-chocolate",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 69,
+        "name": "Chocolate Milk"
+      },
+      "description": "Chocolate Milk allows you to charge Ipecac shots which do slightly more damage compared to uncharged shots. Ipecac shots will no longer automatically fire if you hold down the arrow key, so if you dislike charged shots then do not take Chocolate Milk here."
+    },
+    {
+      "id": "ipecac-cold",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 103,
+        "name": "Common Cold"
+      },
+      "description": "The Common Cold has no effect on Ipecac shots. Common Cold is also a special item, so you may wish to not take it if you already have Ipecac."
+    },
+    {
+      "id": "ipecac-epic",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 168,
+        "name": "Epic Fetus"
+      },
+      "description": "Epic Fetus overrides Ipecac."
+    },
+    {
+      "id": "ipecac-fetus",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 52,
+        "name": "Dr. Fetus"
+      },
+      "description": "Dr. Fetus overrides Ipecac. Ipecac also severely decreases the fire rate of Dr. Fetus bombs."
+    },
+    {
+      "id": "ipecac-triple",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 2,
+        "name": "The Inner Eye"
+      },
+      "description": "The Inner Eye has no effect on Ipecac shots or their fire rate."
+    },
+    {
+      "id": "ipecac-quad",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 153,
+        "name": "Mutant Spider"
+      },
+      "description": "Mutant Spider has no effect on Ipecac shots or their fire rate."
+    },
+    {
+      "id": "ipecac-contacts",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 110,
+        "name": "Mom's Contacts"
+      },
+      "description": "Mom's Contacts causes Ipecac shots to have a random chance to freeze enemies to stone for a few seconds. Having enemies frozen in place is extremely useful for aiming Ipecac shots."
+    },
+    {
+      "id": "ipecac-knife",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 114,
+        "name": "Mom's Knife"
+      },
+      "description": "Mom's Knife overrides Ipecac."
+    },
+    {
+      "id": "ipecac-one",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 6,
+        "name": "Number One"
+      },
+      "description": "Number One greatly increases the fire rate and range of Ipecac shots. Having decreased range allows Ipecac shots to be aimed more easily."
+    },
+    {
+      "id": "ipecac-polyphemus",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 169,
+        "name": "Polyphemus"
+      },
+      "description": "Polyphemus increases the damage of Ipecac shots slightly (53.5 damage vs. 65 damage) but does not slow down the fire rate at all. In this situation you do not want to take the Mutant Spider, as it would slightly reduce your damage."
+    },
+    {
+      "id": "ipecac-sacred",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 182,
+        "name": "Sacred Heart"
+      },
+      "description": "Sacred Heart gives Ipecac shots a homing effect which causes them to curve towards enemies, improving accuracy. Sacred Heart also very slightly increases the damage and decreases the range of each Ipecac shot. Having decreased range allows Ipecac shots to be aimed more easily."
+    },
+    {
+      "id": "ipecac-spider",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 89,
+        "name": "Spider Bite"
+      },
+      "description": "Ipecac shots now have a random chance to slow enemy speed and shot speed if the Spider's Bite effect activates."
+    },
+    {
+      "id": "ipecac-spoon",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 3,
+        "name": "Spoon Bender"
+      },
+      "description": "Ipecac shots gain the Spoon Bender effect, which causes them to curve towards enemies and improves accuracy."
+    },
+    {
+      "id": "ipecac-tech",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 68,
+        "name": "Technology"
+      },
+      "description": "Technology 1 overrides Ipecac and causes the laser to do 300% damage. The x3 damage multiplier from Ipecac does not stack with the other x3 damage multipliers from The Inner Eye and Mutant Spider."
+    },
+    {
+      "id": "ipecac-tech2",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 152,
+        "name": "Technology 2"
+      },
+      "description": "Both Technology 2 and Ipecac shots will fire together and the damage of the laser will be slightly increased. The -35% damage from Tech 2 barely effects the damage of the ipecac shots (reduces from 53.5 to just over 52.5, not much difference)."
+    },
+    {
+      "id": "ipecac-wiggle",
+      "base": {
+        "id": 149,
+        "name": "IPECAC"
+      },
+      "partner": {
+        "id": 59,
+        "name": "Wiggle Worm"
+      },
+      "description": "Wiggle Worm causes Ipecac shots to wiggle as they travel through the air."
+    }
+  ]
+}

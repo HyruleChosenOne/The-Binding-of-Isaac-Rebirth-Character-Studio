@@ -1,19 +1,20 @@
 {
   "name": "isaac-character-studio",
-  "version": "1.0.0",
+  "version": "0.8.0",
   "description": "The Binding of Isaac Rebirth Character & Mod Workshop (DLC Compatible)",
-  "main": "electron/main.cjs",
-  "author": "Hyrule Mod Studio",
+  "main": "server/index.js",
+  "type": "module",
+  "author": "Isaac Character Studio",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/index.js",
     "client": "npm --prefix client run dev",
+    "start": "node server/index.js",
+    "build": "npm --prefix client run build",
     "build:client": "npm --prefix client run build",
-    "electron": "electron electron/main.cjs",
-    "start": "electron electron/main.cjs",
-    "pack": "npm run build:client && electron-builder --dir",
-    "dist:portable": "npm run build:client && electron-builder --win portable",
-    "build:exe": "npm run dist:portable"
+    "build:database": "node scripts/buildDatabase.js",
+    "pack": "node scripts/packZip.js",
+    "test": "node test/verifyAssetEngine.js && node test/verifyCharacterCompile.js && node test/verifyServerHttp.js && node test/verifyDualAndForgottenCompile.js && node test/verifyGreedCoopAndDualPools.js"
   },
   "dependencies": {
     "archiver": "^7.0.1",
@@ -21,42 +22,12 @@
     "express": "^4.19.2",
     "fs-extra": "^11.2.0",
     "multer": "^1.4.5-lts.1",
+    "pngjs": "^7.0.0",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "electron": "^44.0.0",
-    "electron-builder": "^26.15.3",
+    "esbuild": "^0.25.0",
     "sharp": "^0.35.4"
-  },
-  "build": {
-    "appId": "com.hyrule.isaaccharacterstudio",
-    "productName": "HyruleCharacterStudio",
-    "directories": {
-      "output": "dist-app"
-    },
-
-    "files": [
-      "electron/**/*",
-      "assets/**/*",
-      "server/**/*",
-      "client/dist/**/*",
-      "node_modules/**/*",
-      "package.json"
-    ],
-    "icon": "assets/icon.ico",
-    "win": {
-      "icon": "assets/icon.ico",
-      "target": [
-        "portable",
-        "dir"
-      ]
-    },
-    "portable": {
-      "artifactName": "HyruleCharacterStudio.exe",
-      "unpackDirName": "hyrule-character-studio"
-    },
-    "asar": false
-
   }
 }

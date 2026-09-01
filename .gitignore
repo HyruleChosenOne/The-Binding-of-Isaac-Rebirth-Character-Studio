@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Runtime binaries (standalone Node.js executable bundled into release ZIP)
+runtime/*.exe
+*.exe
+
+# Test outputs and temporary mocks
+test/mock_mods/
+test/*output*/
+test/test_mods_output/
+test/test_mods_output_full/
+test/test_mods_output_dual_forgotten/
+test_mod_output/
+
+# Distribution & archives
+*.zip
+*.tar.gz
+dist-app/
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
